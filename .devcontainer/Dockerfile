@@ -1,0 +1,1 @@
+FROM mcr.microsoft.com/vscode/devcontainers/dotnet:5.0
