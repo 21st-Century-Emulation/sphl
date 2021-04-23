@@ -61,6 +61,7 @@ let sphlHandler : HttpHandler =
 let webApp =
     choose [
         POST >=> route "/api/v1/execute" >=> sphlHandler
+        GET  >=> route "/status" >=> text "Healthy"
     ]
 
 type Startup() =
