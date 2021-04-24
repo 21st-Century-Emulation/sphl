@@ -39,6 +39,7 @@ type CpuState =
 type Cpu = 
     {
         Opcode : byte
+        Id : String
         State : CpuState
     }
 
