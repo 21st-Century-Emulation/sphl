@@ -33,6 +33,7 @@ type CpuState =
         ProgramCounter : uint16
         Cycles : uint64
         Flags : CpuFlags
+        InterruptsEnabled : bool
     }
 
 [<CLIMutable>]
